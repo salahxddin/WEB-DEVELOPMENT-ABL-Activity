@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOIR | Modern Dining</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<header class="header">
+    <a href="#home" class="logo">NOIR<span>.</span></a>
+
+    <input type="checkbox" id="nav-toggle">
+    <label for="nav-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
+    <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#story">Our Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#chefs">Our Chefs</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact" class="nav-reserve">Reserve a Table</a>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <p class="eyebrow">AN EXPERIENCE BEYOND TASTE</p>
+
+        <h1>
+            Where flavor<br>
+            meets <em>elegance.</em>
+        </h1>
+
+        <p class="hero-description">
+            A destination for unforgettable dining,
+            handcrafted flavors, and moments worth savoring.
+        </p>
+
+        <div class="hero-actions">
+            <a href="#menu" class="btn btn-gold">
+                Explore the Menu ↗
+            </a>
+
+            <a href="#contact" class="btn btn-outline">
+                Book Your Experience
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- OUR STORY -->
+<section class="story section" id="story">
+
+    <div class="story-image">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1000&q=85"
+        alt="Restaurant ambience">
+    </div>
+
+    <div class="story-content">
+
+        <p class="section-label">01 / OUR STORY</p>
+
+        <h2>
+            More than a meal.<br>
+            <em>A memory.</em>
+        </h2>
+
+        <div class="gold-line"></div>
+
+        <p>
+            At NOIR, we believe dining is an experience that
+            brings people together. Every plate tells a story,
+            every ingredient has a purpose, and every visit
+            creates unforgettable memories.
+        </p>
+
+        <p>
+            Inspired by seasonal ingredients and contemporary
+            culinary culture, our kitchen celebrates flavor
+            in its most beautiful form.
+        </p>
+
+        <a href="#chefs" class="text-link">
+            Meet our chefs →
+        </a>
+
+    </div>
+
+</section>
+
+<!-- MENU SECTION -->
+<section class="menu-section section" id="menu">
+
+    <div class="section-heading centered">
+
+        <p class="section-label">02 / THE MENU</p>
+
+        <h2>
+            Crafted with passion.<br>
+            <em>Served with love.</em>
+        </h2>
+
+        <p>
+            Discover signature creations inspired by
+            seasonal ingredients and culinary artistry.
+        </p>
+
+    </div>
+
+    <div class="menu-tabs">
+        <a href="#starters">Starters</a>
+        <a href="#mains">Main Course</a>
+        <a href="#desserts">Desserts</a>
+        <a href="#drinks">Drinks</a>
+    </div>
+
+    <div class="menu-grid">
+
+        <!-- FOOD 1 -->
+        <article class="food-card" id="starters">
+
+            <div class="food-image">
+                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=85"
+                alt="Fresh salad">
+            </div>
+
+            <div class="food-info">
+                <div>
+                    <h3>Garden Fresh Salad</h3>
+                    <p>Seasonal greens, tomatoes, house dressing</p>
+                </div>
+                <span class="price">₹349</span>
+            </div>
+
+        </article>
+
+        <!-- FOOD 2 -->
+        <article class="food-card">
+
+            <div class="food-image">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=85"
+                alt="Gourmet pizza">
+            </div>
+
+            <div class="food-info">
+                <div>
+                    <h3>Truffle Garden Pizza</h3>
+                    <p>Wood-fired crust, mozzarella, herbs</p>
+                </div>
+                <span class="price">₹599</span>
+            </div>
+
+        </article>
+
+        <!-- FOOD 3 -->
+        <article class="food-card" id="mains">
+
+            <div class="food-image">
+                <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=700&q=85"
+                alt="Pasta">
+            </div>
+
+            <div class="food-info">
+                <div>
+                    <h3>Signature Pasta</h3>
+                    <p>Fresh pasta, creamy sauce, parmesan</p>
+                </div>
+                <span class="price">₹549</span>
+            </div>
+
+        </article>
+
+        <!-- FOOD 4 -->
+        <article class="food-card">
+
+            <div class="food-image">
+                <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=700&q=85"
+                alt="Chef special dish">
+            </div>
+
+            <div class="food-info">
+                <div>
+                    <h3>Chef's Special Bowl</h3>
+                    <p>Seasonal vegetables, aromatic rice</p>
+                </div>
+                <span class="price">₹499</span>
+            </div>
+
+        </article>
+
+        <!-- FOOD 5 -->
+        <article class="food-card" id="desserts">
+
+            <div class="food-image">
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=85"
+                alt="Chocolate cake">
+            </div>
+
+            <div class="food-info">
+                <div>
+                    <h3>Midnight Chocolate</h3>
+                    <p>Chocolate cake, cocoa, silky ganache</p>
+                </div>
+                <span class="price">₹299</span>
+            </div>
+
+        </article>
+
+        <!-- FOOD 6 -->
+        <article class="food-card" id="drinks">
+
+            <div class="food-image">
+                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=85"
+                alt="Cafe beverage">
+            </div>
+
+            <div class="food-info">
+                <div>
+                    <h3>NOIR Signature Cooler</h3>
+                    <p>Fresh citrus, mint, sparkling water</p>
+                </div>
+                <span class="price">₹249</span>
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+<!-- RESTAURANT AMBIENCE -->
+<section class="ambience-section">
+
+    <div class="ambience-image">
+
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1800&q=90"
+        alt="Luxury restaurant interior">
+
+        <div class="ambience-overlay">
+
+            <p class="section-label">THE NOIR EXPERIENCE</p>
+
+            <h2>
+                Designed for moments<br>
+                that <em>matter.</em>
+            </h2>
+
+            <p>
+                Warm lighting. Thoughtful details.
+                Exceptional hospitality.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CHEFS -->
+<section class="section chefs-section" id="chefs">
+
+    <div class="section-heading">
+
+        <p class="section-label">03 / MEET THE CHEFS</p>
+
+        <h2>
+            The hands behind<br>
+            <em>the magic.</em>
+        </h2>
+
+        <p>
+            Meet the culinary minds turning fresh ingredients
+            into unforgettable experiences.
+        </p>
+
+    </div>
+
+    <div class="chef-grid">
+
+        <article class="chef-card">
+
+            <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=800&q=85"
+            alt="Head chef">
+
+            <div class="chef-info">
+                <span>EXECUTIVE CHEF</span>
+                <h3>Arjun Mehta</h3>
+                <p>Contemporary cuisine · 12 years of experience</p>
+            </div>
+
+        </article>
+
+        <article class="chef-card">
+
+            <img src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?auto=format&fit=crop&w=800&q=85"
+            alt="Pastry chef">
+
+            <div class="chef-info">
+                <span>PASTRY CHEF</span>
+                <h3>Isabella Rao</h3>
+                <p>Artisan desserts · Creative patisserie</p>
+            </div>
+
+        </article>
+
+        <article class="chef-card">
+
+            <img src="https://images.unsplash.com/photo-1581299894007-aaa50297cf16?auto=format&fit=crop&w=800&q=85"
+            alt="Sous chef">
+
+            <div class="chef-info">
+                <span>SOUS CHEF</span>
+                <h3>Rohan Kapoor</h3>
+                <p>Seasonal ingredients · Modern techniques</p>
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="reviews-section section" id="reviews">
+
+    <div class="section-heading centered">
+
+        <p class="section-label">04 / GUEST REVIEWS</p>
+
+        <h2>
+            Good food. Great company.<br>
+            <em>Beautiful memories.</em>
+        </h2>
+
+    </div>
+
+    <div class="review-grid">
+
+        <article class="review-card">
+
+            <div class="stars">★★★★★</div>
+
+            <p class="quote">
+                "An absolutely beautiful dining experience.
+                The atmosphere and attention to detail were exceptional."
+            </p>
+
+            <h4>Aditya Sharma</h4>
+            <p class="review-role">Restaurant Guest</p>
+
+        </article>
+
+        <article class="review-card review-featured">
+
+            <div class="stars">★★★★★</div>
+
+            <p class="quote">
+                "The perfect place for a special evening.
+                Every dish felt thoughtfully prepared."
+            </p>
+
+            <h4>Sneha Reddy</h4>
+            <p class="review-role">Restaurant Guest</p>
+
+        </article>
+
+        <article class="review-card">
+
+            <div class="stars">★★★★★</div>
+
+            <p class="quote">
+                "A hidden gem for food lovers.
+                The signature dessert is worth coming back for."
+            </p>
+
+            <h4>Karan Verma</h4>
+            <p class="review-role">Restaurant Guest</p>
+
+        </article>
+
+    </div>
+
+</section>
+
+<!-- RESERVATION -->
+<section class="reservation-section" id="contact">
+
+    <div class="reservation-wrap">
+
+        <div class="reservation-info">
+
+            <p class="section-label">05 / YOUR TABLE AWAITS</p>
+
+            <h2>
+                Make it a night<br>
+                to <em>remember.</em>
+            </h2>
+
+            <p>
+                Whether it's an intimate dinner, a celebration,
+                or simply a moment for yourself, we'd love to welcome you.
+            </p>
+
+            <div class="contact-detail">
+                <span>⌖</span>
+                <div>
+                    <h4>FIND US</h4>
+                    <p>123 Culinary Avenue, Vijayawada, India</p>
+                </div>
+            </div>
+
+            <div class="contact-detail">
+                <span>◷</span>
+                <div>
+                    <h4>OPENING HOURS</h4>
+                    <p>
+                        Monday – Friday: 12 PM – 10:30 PM<br>
+                        Saturday – Sunday: 11 AM – 11 PM
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact-detail">
+                <span>✆</span>
+                <div>
+                    <h4>CALL US</h4>
+                    <p>+91 98765 43210</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RESERVATION FORM -->
+        <form class="reservation-form"
+        action="mailto:your.email@example.com"
+        method="post"
+        enctype="text/plain">
+
+            <p class="form-label">RESERVATION REQUEST</p>
+
+            <h3>Book your table</h3>
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="Name"
+                    placeholder="Full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="Email"
+                    placeholder="you@example.com" required>
+                </div>
+
+            </div>
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="Date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="time">Preferred Time</label>
+
+                    <select id="time" name="Time" required>
+                        <option value="">Choose time</option>
+                        <option>12:00 PM</option>
+                        <option>1:00 PM</option>
+                        <option>2:00 PM</option>
+                        <option>6:00 PM</option>
+                        <option>7:00 PM</option>
+                        <option>8:00 PM</option>
+                        <option>9:00 PM</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+
+                    <select id="guests" name="Guests" required>
+                        <option value="">Select guests</option>
+                        <option>1 Guest</option>
+                        <option>2 Guests</option>
+                        <option>3 Guests</option>
+                        <option>4 Guests</option>
+                        <option>5 Guests</option>
+                        <option>6+ Guests</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="occasion">Occasion</label>
+
+                    <select id="occasion" name="Occasion">
+                        <option>Just dining</option>
+                        <option>Birthday</option>
+                        <option>Anniversary</option>
+                        <option>Business dinner</option>
+                        <option>Other celebration</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                <label for="message">Special Requests</label>
+
+                <textarea id="message" name="Requests"
+                rows="3" placeholder="Any special requests?"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-gold submit-btn">
+                Request Reservation ↗
+            </button>
+
+            <p class="form-note">
+                Reservation demonstration form.
+            </p>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-top">
+
+        <div>
+            <a href="#home" class="logo">NOIR<span>.</span></a>
+            <p>Where flavor meets elegance.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="#story">Our Story</a>
+            <a href="#menu">Menu</a>
+            <a href="#chefs">Our Chefs</a>
+            <a href="#contact">Reservations</a>
+        </div>
+
+        <div class="footer-social">
+            <a href="#">Instagram ↗</a>
+            <a href="#">Facebook ↗</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <span>© 2026 NOIR RESTAURANT</span>
+        <span>MADE WITH PASSION & GOOD TASTE</span>
+    </div>
+
+</footer>
+
+</body>
+</html>
